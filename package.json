@@ -1,0 +1,33 @@
+{
+  "name": "smart-orchestrator",
+  "version": "2.3.0",
+  "description": "An autonomous AI skill triage and routing protocol with a standard library of industry skills.",
+  "main": "bin/init.js",
+  "bin": {
+    "smart-orchestrator": "bin/init.js"
+  },
+  "scripts": {
+    "start": "node bin/init.js",
+    "lint:skills": "node bin/lint.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmetbolu/smart-orchestrator.git"
+  },
+  "keywords": [
+    "ai",
+    "vibe-coding",
+    "cursorrules",
+    "prompt-engineering",
+    "system-prompts",
+    "orchestrator"
+  ],
+  "author": "Ahmet Bolu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmetbolu/smart-orchestrator/issues"
+  },
+  "homepage": "https://github.com/ahmetbolu/smart-orchestrator#readme",
+  "dependencies": {}
+}
